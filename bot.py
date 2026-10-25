@@ -31,7 +31,8 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # ==================== SOZLAMALAR ====================
-BOT_TOKEN = "8783907306:AAHLnXvAm1MMLlRc3DchG10aMuDGMA9Kte4"
+# Render muhitidan tokenni o'qish uchun:
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 # Egasi (Owner) Telegram ID
 OWNER_ID = 8318241400
