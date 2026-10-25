@@ -6,12 +6,6 @@
 # RENDER SOZLAMALARI:
 #  - Build Command: pip install -r requirements.txt
 #  - Start Command: python bot.py
-#  - Environment Variables: BOT_TOKEN (BotFather tokeni)
-#
-# PARAMETRLAR:
-#  - Egasi (Owner ID): 8318241400
-#  - Majburiy Kanal ID: -1003852596133
-#  - Kanal: @kagedub1 (https://t.me/kagedub1)
 # ====================================================================
 
 import asyncio
@@ -37,7 +31,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # ==================== SOZLAMALAR ====================
-BOT_TOKEN = os.environ.get("8783907306:AAHLnXvAm1MMLlRc3DchG10aMuDGMA9Kte4", "BOT_TOKENINGIZNI_BU_YERGA_YOZING")
+BOT_TOKEN = "8783907306:AAHLnXvAm1MMLlRc3DchG10aMuDGMA9Kte4"
 
 # Egasi (Owner) Telegram ID
 OWNER_ID = 8318241400
